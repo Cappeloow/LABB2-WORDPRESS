@@ -15,10 +15,42 @@ Author:         CASPER WERNERSSON
     padding:7px;
     font-weight: bold;
     letter-spacing: 2px;
-    border:1px solid rgb(0, 0, 0);
-    background-color: rgba(228, 236, 228, 0.595);
+    border:1px solid rgb(246, 240, 240);
+    background-color: rgba(23, 94, 23, 0.595);
     width:420px;
     border-radius: 25px;
     text-align: center;
 } 
+.onsale {
+    background-color: rgba(21, 255, 0, 0.858);
+}
 
+#product_cat{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1;
+    color: #555555;
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+
+.orderby {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1;
+    color: #555555;
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
