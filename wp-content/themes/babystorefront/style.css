@@ -38,6 +38,16 @@ Author:         CASPER WERNERSSON
     -moz-appearance: none;
     appearance: none;
 }
+#product_cat:focus{
+    background-color: #e0d9d9;
+    border: 1px solid #120202;
+
+}
+#product_cat:hover{
+    background-color: #ffffff;
+    border: 1px solid #120202;
+
+}
 
 
 
@@ -54,3 +64,16 @@ Author:         CASPER WERNERSSON
     -moz-appearance: none;
     appearance: none;
 }
+
+.orderby:focus{
+    background-color: #e0d9d9;
+    border: 1px solid #120202;
+
+}
+.orderby:hover{
+    background-color: #ffffff;
+    border: 1px solid #120202;
+
+}
+
+
