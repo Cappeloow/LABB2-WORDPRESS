@@ -1,0 +1,8 @@
+.woocommerce ul.products li.product a img {
+    opacity: 0.5 !important;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.woocommerce ul.products li.product a:hover img {
+    opacity: 1 !important;
+}

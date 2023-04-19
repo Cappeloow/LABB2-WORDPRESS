@@ -1,6 +1,24 @@
 /*
 
-Thema Name: babystorefront
+Theme Name: babystorefront
 Template: storefront
+Version:        1.0.0
+Author:         CASPER WERNERSSON
 
 */
+
+@import url("../storefront/style.css");
+
+.downloadable-product {
+    color: rgb(1, 0, 0);
+    font-size: 18px;
+    padding:7px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 128, 0, 0.595);
+    width:420px;
+    border-radius: 25px;
+    text-align: center;
+}
+
