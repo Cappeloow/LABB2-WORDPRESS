@@ -22,9 +22,13 @@ Author:         CASPER WERNERSSON
     text-align: center;
 } 
 .onsale {
-    background-color: rgba(21, 255, 0, 0.858);
+    background-color: rgba(40, 179, 16, 0.858);
+    color:rgba(255, 255, 255, 0.853);
 }
-
+.woocommerce-result-count{
+    float:none;
+}
+	
 #product_cat{
     display: inline-block;
     padding: 10px 15px;
@@ -76,4 +80,7 @@ Author:         CASPER WERNERSSON
 
 }
 
+.onsale-star {
+    font-size: 21px !important;
+}
 

@@ -1,4 +1,11 @@
 <?php
+function my_custom_styles()
+{
+    wp_enqueue_style('my-custom-styles', get_stylesheet_directory_uri() . '/style.css', array(), '1.0', 'all');
+}
+add_action('wp_enqueue_scripts', 'my_custom_styles');
+
+
 function isDownloadable()
 {
     global $product;
@@ -10,6 +17,8 @@ function isDownloadable()
 add_action('woocommerce_before_single_product_summary', 'isDownloadable', 10);
 
 add_action('woocommerce_before_shop_loop', 'my_custom_category_dropdown', 20);
+
+
 
 function my_custom_category_dropdown()
 {
@@ -41,5 +50,20 @@ function my_custom_category_dropdown()
     wp_reset_query();
 }
 
+function display_sale_days()
+{
+    global $product;
+    if ($product->is_on_sale()) {
+        echo '<span class="onsale-star">★</span> ';
+    }
+}
+add_action('display_sale_days', 'display_sale_days');
+
+function modify_woocommerce_sale_badge($html, $post, $product)
+{
+    $html = '<span class="onsale">SISTA CHANSEN!</span>';
+    return $html;
+}
+add_filter('woocommerce_sale_flash', 'modify_woocommerce_sale_badge', 10, 3);
 
 ?>
