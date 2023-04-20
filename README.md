@@ -11,3 +11,7 @@
 - Adderade en function som tittar om produkten är en nedladdningsprodukt, är det de så lägger vi till en text ovanför produktbilden där det står "Detta är en nedladdningsbarprodukt"
 
 - Adderade Kategorier dropdown meny i butiksidan samt ändrade på css stilen där.
+
+- Adderade en add_filter på alla reaprodukter där jag istället displayar : SISTA CHANSEN - istället för REA!
+
+- La till också en stjärna ifall en produkt är onsale.
