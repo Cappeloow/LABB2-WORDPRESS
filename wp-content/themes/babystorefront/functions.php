@@ -66,4 +66,11 @@ function modify_woocommerce_sale_badge($html, $post, $product)
 }
 add_filter('woocommerce_sale_flash', 'modify_woocommerce_sale_badge', 10, 3);
 
+function remove_result_count()
+{
+    remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+}
+add_action('init', 'remove_result_count');
+
+
 ?>
