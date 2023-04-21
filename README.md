@@ -18,6 +18,10 @@
 
 - Körde en remove_action för att ta bort sök resultaten på topsidan av archive-product sidan, bedömmer att det inte värt att ha det högst uppe, men finns kvar längst nere.
 
+-//TOG BORT "BUTIK" när man är på archive-product, anser att kunderna kan förstå att man är på butikssidan när man ser produkter och den tar för mycket plats.
+
+- FÖRÄNDRING tog bort min add_action Kategorie dropwn down för att displaya en lista med categorier, ville ha det mer cleant så gjorde ett eget plugin för att displaya det istället.
+
 ### tankar
 
 - varför funkar inte style.css ibland?

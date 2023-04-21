@@ -41,6 +41,7 @@ Author:         CASPER WERNERSSON
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    margin:0;
 }
 #product_cat:focus{
     background-color: #e0d9d9;
@@ -53,7 +54,36 @@ Author:         CASPER WERNERSSON
 
 }
 
+.ulOfCategories {
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.categoryCss {
+   display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1;
+    color: #e0e0e0;
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin:5px;
+}
+
+.categoryCss:hover{
+    background-color: #ffffff;
+    border: 1px solid #120202;
+
+}
+.categoryCss > a{
+    color:rgb(5, 0, 0);
+}
 
 .orderby {
     display: inline-block;
@@ -67,6 +97,7 @@ Author:         CASPER WERNERSSON
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    margin:0;
 }
 
 .orderby:focus{
@@ -79,6 +110,8 @@ Author:         CASPER WERNERSSON
     border: 1px solid #120202;
 
 }
+
+
 
 .onsale-star {
     font-size: 21px !important;

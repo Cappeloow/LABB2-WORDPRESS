@@ -1,0 +1,36 @@
+2023-04-21T08:17:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "registrera_bok" not found or invalid function name in C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\PHP\wordpressSetup\labb2-casper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\PHP\wordpressSetup\labb2-casper\wp-settings.php(623): do_action('init')
+#3 C:\PHP\wordpressSetup\labb2-casper\wp-config.php(98): require_once('C:\\PHP\\wordpres...')
+#4 C:\PHP\wordpressSetup\labb2-casper\wp-load.php(50): require_once('C:\\PHP\\wordpres...')
+#5 C:\PHP\wordpressSetup\labb2-casper\wp-admin\admin.php(34): require_once('C:\\PHP\\wordpres...')
+#6 C:\PHP\wordpressSetup\labb2-casper\wp-admin\plugins.php(10): require_once('C:\\PHP\\wordpres...')
+#7 {main}
+  thrown i C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php på rad 308
+
+2023-04-21T08:17:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "registrera_bok" not found or invalid function name in C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\PHP\wordpressSetup\labb2-casper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\PHP\wordpressSetup\labb2-casper\wp-settings.php(623): do_action('init')
+#3 C:\PHP\wordpressSetup\labb2-casper\wp-config.php(98): require_once('C:\\PHP\\wordpres...')
+#4 C:\PHP\wordpressSetup\labb2-casper\wp-load.php(50): require_once('C:\\PHP\\wordpres...')
+#5 C:\PHP\wordpressSetup\labb2-casper\wp-admin\admin.php(34): require_once('C:\\PHP\\wordpres...')
+#6 C:\PHP\wordpressSetup\labb2-casper\wp-admin\plugins.php(10): require_once('C:\\PHP\\wordpres...')
+#7 {main}
+  thrown i C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php på rad 308
+
+2023-04-21T08:17:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "registrera_bok" not found or invalid function name in C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\PHP\wordpressSetup\labb2-casper\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\PHP\wordpressSetup\labb2-casper\wp-settings.php(623): do_action('init')
+#3 C:\PHP\wordpressSetup\labb2-casper\wp-config.php(98): require_once('C:\\PHP\\wordpres...')
+#4 C:\PHP\wordpressSetup\labb2-casper\wp-load.php(50): require_once('C:\\PHP\\wordpres...')
+#5 C:\PHP\wordpressSetup\labb2-casper\wp-admin\admin.php(34): require_once('C:\\PHP\\wordpres...')
+#6 C:\PHP\wordpressSetup\labb2-casper\wp-admin\plugins.php(10): require_once('C:\\PHP\\wordpres...')
+#7 {main}
+  thrown i C:\PHP\wordpressSetup\labb2-casper\wp-includes\class-wp-hook.php på rad 308
+

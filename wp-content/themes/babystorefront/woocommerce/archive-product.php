@@ -28,25 +28,10 @@ get_header('shop');
  */
 do_action('woocommerce_before_main_content');
 
-?>
-<header class="woocommerce-products-header">
-	<?php if (apply_filters('woocommerce_show_page_title', true)): ?>
-		<h1 class="woocommerce-products-header__title page-title">
-			<?php woocommerce_page_title(); ?>
-		</h1>
-	<?php endif; ?>
+//TOG BORT "BUTIK", Ansåg att det var inte nödvändig
+echo do_shortcode('[display_categories]');
 
-	<?php
-	/**
-	 * Hook: woocommerce_archive_description.
-	 *
-	 * @hooked woocommerce_taxonomy_archive_description - 10
-	 * @hooked woocommerce_product_archive_description - 10
-	 */
-	do_action('woocommerce_archive_description');
-	?>
-</header>
-<?php
+
 if (woocommerce_product_loop()) {
 
 	/**
